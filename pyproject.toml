@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "yt2article"
+version = "0.1.0"
+description = ""
+authors = ["Jong Hyun Park <jonhpark7966@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+yt-dlp = "^2024.8.6"
+openai = "^1.45.0"
+python-dotenv = "^1.0.1"
+pydub = "^0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
